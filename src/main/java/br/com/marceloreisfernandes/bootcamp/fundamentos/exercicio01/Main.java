@@ -17,9 +17,13 @@ public class Main {
 
         try {
             var dataNascimento = DataNascimentoParser.parse(dataNascimentoTexto);
-            var idade = CalculadoraIdade.calcular(dataNascimento, LocalDate.now());
+            var idade = CalculadoraIdade.calcularDetalhada(dataNascimento, LocalDate.now());
 
-            System.out.printf("Olá %s, você tem %d anos.%n", nome, idade);
+            System.out.printf(
+                    "Olá %s, você tem %d anos e %d dias.%n",
+                    nome,
+                    idade.anos(),
+                    idade.dias());
         } catch (DateTimeParseException | IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
