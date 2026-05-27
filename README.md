@@ -65,3 +65,21 @@ docker compose run --rm java java -cp fundamentos-java/exercicio-03-area-retangu
 docker compose run --rm java javac fundamentos-java/exercicio-04-diferenca-idade/Main.java
 docker compose run --rm java java -cp fundamentos-java/exercicio-04-diferenca-idade Main
 ```
+
+## Materiais de Apoio
+
+Materiais complementares utilizados durante o estudo do módulo **Fundamentos da Linguagem de Programação Java**.
+
+### Recursos adicionais
+
+- [Repositório oficial de exercícios Java básico - DIO](https://github.com/digitalinnovationone/exercicios-java-basico)
+- [Java Keywords - W3Schools](https://www.w3schools.com/java/java_ref_keywords.asp)
+- [Java: Tipos Primitivos - DIO](https://www.dio.me/articles/java-tipos-primitivos)
+- [Java Bitwise Operators - Baeldung](https://www.baeldung.com/java-bitwise-operators)
+
+### Dicas de estudo
+
+- Usar os artigos e fóruns da DIO para tirar dúvidas e compartilhar conhecimento.
+- Participar das Rooms da DIO para interagir com outros alunos do bootcamp.
+- Utilizar pesquisas na web e StackOverflow para aprofundar temas específicos.
+- Praticar os exercícios localmente, preferencialmente usando Git, Docker, Maven e testes automatizados.
