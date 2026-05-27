@@ -1,6 +1,5 @@
-*.class
-out/
 target/
+*.class
 .idea/
 .vscode/
 .DS_Store
